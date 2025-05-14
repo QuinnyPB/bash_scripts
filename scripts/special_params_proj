@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author Quinn Bruckmann
+# Date Created: 10/05/2025
+# Date Last Modified: 10/05/2025
+# Description: Will compute a chain of basic arithmetic equations
+# Usage: ./pos_params_proj 1 + 2 - 3 * 4 / 5
+
+value=$(( $@ ))
+echo $value
+
+
+exit 0
+

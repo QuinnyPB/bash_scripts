@@ -1,0 +1,6 @@
+#!/bin/bash
+time=$(date +%H:%m:%S)
+echo "Hello $USER, the time is $time"
+echo "$(date +%H:%m:%S)"
+
+exit 0

@@ -1,0 +1,4 @@
+#!/bin/bash
+student="John"
+echo "Hello ${student}"
+exit 0

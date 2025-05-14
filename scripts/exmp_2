@@ -1,0 +1,8 @@
+#!/bin/bash
+IFS="."
+name="Simon.Smith"
+out="output.txt"
+
+echo $name > "$PWD/$out"
+
+exit 0

@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ $# -ne 2 ]]; then
+	echo "Must enter two parameters"
+	echo "Usage: $0 <file1> <file2>"
+fi
+
+exit 0
